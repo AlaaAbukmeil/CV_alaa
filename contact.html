@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Information</title>
+</head>
+<body>
+  <h1>Ally's Information</h1>
+  <h3><label for="Contact">Contact Information</label></h3>
+  <ul id="Contact">
+
+    <li>
+      xxx@gmail.com
+    </li>
+    <li>
+      9999999
+    </li>
+    <li>
+      7489578
+    </li>
+  </ul>
+  <h3><label for="Media">Social Media</label></h3>
+  <ul id="Media">
+
+    <li>
+      IG
+    </li>
+    <li>
+      FB
+    </li>
+    <li>
+      LinkedIn
+    </li>
+  </ul>
+
+
+  <form id="survey-form" action="mailto:abukmeilalaa@gmail.com" method="post" enctype="text/plain">
+  <label for="name" id="name-label">Name</label><br>
+  <input id="name" type="text" placeholder="Enter Your Name" class= "first" name="yourName" required></input><br>
+
+<label for="email" id="email-label">Email</label><br>
+  <input value=""id="email" type="email" placeholder="Enter Your Email" class= "first" name ="yourEmail"required></input><br>
+
+<label for="number" id="number-label" name="yourAge">Age (optional)</label><br>
+  <input value=""id="number" type="number" placeholder="18" min ="10" max="100" class= "first" ></input><br>
+
+<label for="dropdown">Which option best describes your current role?</label><br>
+<select id="dropdown" name="yourJob"required>
+  <option value ="" disabled selected>Select Current Role</option>
+  <option value ="student">Student</option>
+  <option value ="full_time_job">Full time job</option>
+  <option value ="full_time_learner">Full time learner</option>
+  <option value ="prefer_not_to_say">Prefer not to say</option>
+  <option value ="other">Other</option>
+</select><br>
+<label for="options">Would you recommend freeCodeCamp to a friend?</label><br>
+<input id="color" value ="definitely"name ="option"type ="radio">Definitely</input><br>
+
+<input id="color" value ="maybe" name ="option"type ="radio">Maybe</input><br>
+
+<input id="color" value ="not_sure"name ="option"type ="radio">Not Sure</input><br>
+
+<label for="checkbox">What is your favorite feature of freeCodeCamp?</label><br>
+<input type ="checkbox" value="front_end_projects">Front-end projects</input><br>
+<input type ="checkbox" value="back_end_projects">Back-end projects</input><br>
+<input type ="checkbox" value="front_end_projects">Challenges</input><br>
+<input type ="checkbox" value="data_visualization">Data visualization</input><br>
+<label for="comment">Any comments or suggestions?</label><br>
+<textarea name="yourMessage" id ="comment" placeholder ="Enter your comments here..." rows="10" cols="30"></textarea><br>
+<input type="submit" id="submit" name="">
+
+
+
+
+
+
+</form>
+</body>
+</html>
