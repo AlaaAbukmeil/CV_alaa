@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Montserrat&family=Sacramento&display=swap');
+
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #EFEAD8;
+}
+
+
+h1, h2, h3{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  color: #AD8B73;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5625em;
+  color: #AD8B73;
+}
+
+
+.top-container{
+  background-color: #EFEAD8;
+  position: relative;
+  padding-top: 12.5em;
+
+
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 18.75em;
+  bottom: 18.75em;
+  width: 10em;
+  height: 10em;
+}
+.top-cloud{
+  position: absolute;
+  right: 18.75em;
+  top: 6.25em;
+  width: 10em;
+  height: 10em;
+}
+.middle-container img{
+  width: 25em;
+  height: 25em;
+  border-radius: 1.5625em;
+}
+.bottom-container img{
+  width: 1.5625em;
+  height: 1.5625em;
+  padding: 0.625em;
+}
+.bottom-container img:hover {
+  filter: brightness(80%);
+}
+
+#profile{
+  width: 12.5em;
+  height: 12.5em;
+  border-radius: 6.25em;
+  margin-top: 6.25em;
+
+}
+
+#email{
+  width: 6.25em;
+  height: 6.25em;
+}
+#email:hover {
+  filter: brightness(80%);
+}
+hr {
+  overflow: visible; /* For IE */
+   padding: 0;
+   border: none;
+   border-top: medium double #333;
+   color: #333;
+   text-align: center;
+   margin: 5% auto 5% auto;
+
+}
+hr:after {
+   content: "§";
+   display: inline-block;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.5em;
+   padding: 0 0.25em;
+   background: #EFEAD8;
+}
