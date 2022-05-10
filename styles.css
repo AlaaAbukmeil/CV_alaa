@@ -5,6 +5,10 @@ body{
   margin: 0;
   text-align: center;
   background-color: #EFEAD8;
+  background-image: url("https://media.giphy.com/media/qlOso7alCUTiAX7aG5/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
 }
 
 
@@ -22,10 +26,12 @@ p{
 
 
 .top-container{
-  background-color: #EFEAD8;
+  
   position: relative;
   padding-top: 12.5em;
-
+  background-image: url("https://media.giphy.com/media/xlWiIpKcbvJmqNLlCQ/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
 
